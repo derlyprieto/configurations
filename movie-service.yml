@@ -12,6 +12,19 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+management:
+  info:
+    defaults:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 
 
