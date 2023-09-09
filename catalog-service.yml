@@ -3,6 +3,19 @@ server:
 spring:
   application:
     name: catalog-service
+  mongodb:
+    embedded:
+      version: 4.0.2
+  data:
+    mongodb:
+      database: test
+      port: 27018
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
 eureka:
   client:
     register-with-eureka: true
