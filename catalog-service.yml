@@ -19,6 +19,8 @@ spring:
 queue:
   serie:
     name: SerieServiceQueue
+  movie:
+    name: MovieQueue
 
 eureka:
   client:
