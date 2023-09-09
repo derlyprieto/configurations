@@ -16,6 +16,10 @@ spring:
     host: localhost
     port: 5672
 
+queue:
+  serie:
+    name: SerieServiceQueue
+
 eureka:
   client:
     register-with-eureka: true
